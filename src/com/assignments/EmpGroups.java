@@ -1,15 +1,16 @@
 package com.assignments;
 
-
 public class EmpGroups {
 	public static void main(String[] args) {
 
-	Employee obj = new Employee();
-		String[] empGroupNames = obj.empNames;
-		int[] empGroupId = obj.empId;
+		Employee emp = new Employee();
 		
-		System.out.println(empGroupNames[0]);
-		System.out.println(empGroupId[0]);
+		String[] empNames = new String[3];
+		int[] empIds = new int[3];
+
+		empNames[0] = emp.empNames1;
+		empNames[1] = emp.empNames2;
+		empNames[2] = emp.empNames3;
 
 	}
 

@@ -2,18 +2,12 @@ package com.assignments;
 
 public class Employee {
 
-	public static void main(String[] args) {
-		String[] empNames = new String[3];
-		empNames[0] = "Bharath";
-		empNames[1] = "ABC";
-		empNames[2] = "XYZ";
-		
-		int[] empId = new int[3];
-		empId[0] = 	1234;
-		empId[1] = 1235;
-		empId[2] = 1236;
-		
+	String empNames1 = "Bharath";
+	String empNames2 = "ABC";
+	String empNames3 = "XYZ";
 
-	}
+	int empId1 = 1234;
+	int empId2 = 1235;
+	int empId3 = 1236;
 
 }
